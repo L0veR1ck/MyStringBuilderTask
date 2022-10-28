@@ -5,14 +5,23 @@ namespace MyStringBuilderTask
 {
     public class MyStringBuilderTests
     {
-        public static void TestAppend(string oldValue, string expectedResult)
+        [TestCase("ahahahaahaha", "ahahahaahaha")]
+        [TestCase("g\' f", "g\' f")]
+        [TestCase("hoho", "hoho")]
+        [TestCase('f', "f")]
+
+        public static void TestAppend(string valueToAppend, string expectedResult)
         {
             var actualResult = new MyStringBuilder();
-            SetOldValue(actualResult, oldValue);
+            SetOldValue(actualResult, valueToAppend);
             
             Assert.AreEqual(expectedResult, actualResult.ToString());
         }
 
+        [TestCase("haha?")]
+        [TestCase("ha")]
+        [TestCase("g\' f")]
+        
         public static void TestClear(string oldValue)
         {
             var actualResult = new MyStringBuilder();
@@ -20,7 +29,7 @@ namespace MyStringBuilderTask
             actualResult.Clear();
             Assert.AreEqual(new List<char>(), actualResult.Value);
         }
-
+        
         private static void SetOldValue(MyStringBuilder sb, string oldValue)
         {
             var oldValueList = new List<char>();
