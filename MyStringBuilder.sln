@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStringBuilderTask", "MyStringBuilderTask\MyStringBuilderTask.csproj", "{D30AF248-646C-4EF7-9460-A5AA5BD5D4F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStringBuilderTask", "MyStringBuilderTask.csproj", "{83168E3C-FBCF-4649-A82A-414C6E3DA7A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D30AF248-646C-4EF7-9460-A5AA5BD5D4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D30AF248-646C-4EF7-9460-A5AA5BD5D4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D30AF248-646C-4EF7-9460-A5AA5BD5D4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D30AF248-646C-4EF7-9460-A5AA5BD5D4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83168E3C-FBCF-4649-A82A-414C6E3DA7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83168E3C-FBCF-4649-A82A-414C6E3DA7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83168E3C-FBCF-4649-A82A-414C6E3DA7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83168E3C-FBCF-4649-A82A-414C6E3DA7A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
